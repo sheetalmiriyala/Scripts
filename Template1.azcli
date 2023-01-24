@@ -1,0 +1,6 @@
+az network vnet create --name 'vnet-002' 
+--resource-group 'My-grp' 
+--location 'East Us 2' 
+--address-prefixes 10.1.0.0/16 
+--subnet-name 'subnetA' 
+--subnet-prefixes 10.1.0.0/24
